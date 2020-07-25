@@ -9,11 +9,12 @@ These are basic question which is helps to build confidence in coding skills.
 .A PROGRAME IN C TO READ 10 MUMBERS FROM KEYBOARD AND THEIR SUM AND AVERAGE.
 .A PROGRAME IN C THAT TAKES MINUTES AS INPUT ,AND DISPLAY THE TOTAL NUMBER OF HOURS AND MINUTES.
 .WAP TO GENERATE FOLLOWING OUTPUT:
-  		1<br>
-	  		1	2<br>
-	  	1	2	3<br>
-	  1	2	3	4<br>
-  1	2	3	4	5<br>
-  <br>
+  		       		1
+			1	2
+		1	2	3
+	1	2	3	4
+1	2	3	4	5
+
+ 
 Solutions of these questions in(some other question) named file
 ````
