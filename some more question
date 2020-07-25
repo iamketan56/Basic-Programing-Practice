@@ -1,0 +1,333 @@
+```
+(1 ) A PROGRAM TO READ THE AGE OF A CANDIDATE AND DETERMINE WHTHER IT IS ELIGIBLE FOR CASTING HIS\HER OWN VOTE.
+
+#include <stdio.h>
+void main()
+
+{
+
+int vote_age;
+
+printf("Input the age of the candidate : ");
+
+scanf("%d",&vote_age);
+
+if (vote_age<18)
+
+{
+
+printf("Sorry, You are not eligible to caste your vote.\n");
+
+}
+
+else
+
+printf("Congratulation! You are eligible for casting your vote.\n"); output:
+
+Input the age of the candidate : 21
+
+Congratulation! You are eligible for casting your vote.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+(2)	PROGRAME TO COUNT MINIMUM NUMBER OF DENOMINATION FOR GIVEN AMOUNT.
+
+  #include <stdio.h>
+
+int main()
+
+{
+int amount;
+
+int note500, note100, note50, note20, note10, note5, note2, note1;
+ 
+NAME-KETAN
+UID-18BET1071
+BRANCH-BE(IT)
+
+/* Initialize all notes to 0 */
+
+note500 = note100 = note50 = note20 = note10 = note5 = note2 = note1 = 0;
+
+
+/* Input amount from user */
+printf("Enter amount: ");
+
+scanf("%d", &amount);
+
+
+if(amount >= 500)
+
+{
+note500 = amount/500;
+
+amount -= note500 * 500;
+}
+if(amount >= 100)
+
+{
+note100 = amount/100;
+
+amount -= note100 * 100;
+}
+
+if(amount >= 50)
+{
+
+note50 = amount/50;
+amount -= note50 * 50;
+
+}
+if(amount >= 20)
+{
+
+note20 = amount/20;
+amount -= note20 * 20;
+
+}
+if(amount >= 10)
+
+{
+note10 = amount/10;
+
+amount -= note10 * 10;
+}
+
+if(amount >= 5)
+{
+note5 = amount/5;
+
+amount -= note5 * 5;
+}
+
+if(amount >= 2)
+{
+
+note2 = amount /2;
+amount -= note2 * 2;
+
+}
+if(amount >= 1)
+
+{
+note1 = amount;
+}
+
+/* Print required notes */
+
+printf("Total number of notes = \n");
+ 
+
+printf("500 = %d\n", note500);
+
+printf("100 = %d\n", note100);
+printf("50 = %d\n", note50);
+
+printf("20 = %d\n", note20);
+printf("10 = %d\n", note10);
+printf("5 = %d\n", note5);
+
+printf("2 = %d\n", note2);
+printf("1 = %d\n", note1);
+
+return 0;
+
+}
+
+
+}
+
+OUTPUT:
+
+Enter amount: 4673
+
+Total number of notes =
+
+500=9
+
+100=1
+
+50=1
+
+20=1
+
+10=0
+
+5 = 0
+
+2 = 1
+
+1 = 1
+
+
+(3)	A PROGRAME IN C TO READ 10 MUMBERS FROM KEYBOARD AND THEIR SUM AND AVERAGE.
+#include <stdio.h>
+
+void main()
+
+{
+
+int i,n,sum=0;
+
+float avg;
+
+printf("Input the 10 numbers : \n");
+ 
+NAME-KETAN
+UID-18BET1071
+BRANCH-BE(IT)
+
+
+for (i=1;i<=10;i++)
+
+{
+
+printf("Number-%d :",i);
+
+
+
+scanf("%d",&n);
+
+sum +=n;
+
+}
+
+avg=sum/10.0;
+
+printf("The sum of 10 no is : %d\nThe Average is : %f\n",sum,avg);
+
+
+
+}
+
+OUTPUT:
+
+Input the 10 numbers :
+
+Number-1 :1
+
+Number-2 :2
+
+Number-3 :3
+
+Number-4 :4
+
+Number-5 :5
+
+Number-6 :6
+
+Number-7 :7
+
+Number-8 :8
+
+Number-9 :9
+
+Number-10 :10
+
+The sum of 10 no is : 55
+ 
+
+
+The Average is : 5.500000
+
+
+(4)	A PROGRAME IN C THAT TAKES MINUTES AS INPUT ,AND DISPLAY THE TOTAL NUMBER OF HOURS AND MINUTES.
+
+#include <stdio.h>
+
+int tot_mins; /* given number of minutes */
+
+int hrs; /* number of hours (to be computed) */ int mins; /* number of minutes (to be computed) */
+
+
+const int MINaHOUR = 60;	/* number of minutes in an hour */
+
+
+
+char line_text[50];	/* line of input from keyboard */
+
+
+
+int main() {
+
+printf("Input minutes: ");
+
+fgets(line_text, sizeof(line_text), stdin);
+
+sscanf(line_text, "%d", &tot_mins);
+
+
+
+hrs = (tot_mins / MINaHOUR);
+
+mins = (tot_mins % MINaHOUR);
+
+
+
+printf("%d Hours, %d Minutes.\n", hrs, mins);
+
+
+
+return(0);
+
+}
+
+OUTPUT:
+
+ 
+
+Input minutes: 546
+
+9 Hours, 6 Minutes.
+
+
+
+
+
+
+
+(5).WAP TO GENERATE FOLLOWING OUTPUT:
+
+				1
+			1	2
+		1	2	3
+	1	2	3	4
+1	2	3	4	5
+
+
+#include<stdio.h>
+#include<stdio.h>
+
+main()
+{
+
+
+for(int i=1;i<=5;i++)
+{
+for(int j=1;j<=5-i;j++)
+{
+printf(" ");
+}
+for(int k=1;k<=i;k++)
+{
+
+printf("%d",k);
+}
+printf("\n");
+
+}
+}
+
+
+OUTPUT:
+ 
+
+1
+ 
+
+1 2
+1 2 3
+1 234
+
+12345
+```
