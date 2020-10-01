@@ -2,7 +2,7 @@
 <h1 style="text-align:center">Basic-Programing-Practice</h1>
 These are basic question which is helps to build confidence in coding skills.
 
-## Some are like:
+### Some are like:
 ```
 .A PROGRAM TO READ THE AGE OF A CANDIDATE AND DETERMINE WHTHER IT IS ELIGIBLE FOR CASTING HIS\HER OWN VOTE.
 .PROGRAME TO COUNT MINIMUM NUMBER OF DENOMINATION FOR GIVEN AMOUNT.
