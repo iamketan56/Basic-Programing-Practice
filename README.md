@@ -3,7 +3,7 @@
 
 ## There are multiple question to work.
 
-### Some of them are :: 
+### Some of them are given below :: 
 
 - A PROGRAM TO READ THE AGE OF A CANDIDATE AND DETERMINE WHTHER IT IS ELIGIBLE FOR CASTING HIS\HER OWN VOTE.
 - PROGRAME TO COUNT MINIMUM NUMBER OF DENOMINATION FOR GIVEN AMOUNT.
@@ -12,12 +12,11 @@
 - WAP TO GENERATE FOLLOWING OUTPUT:
 
 ```
-  		       		1
+        1
 			1	2
 		1	2	3
 	1	2	3	4
 1	2	3	4	5
-
- ```
+```
  
 Solution's can be get in file
